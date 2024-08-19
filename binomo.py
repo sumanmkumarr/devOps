@@ -30,5 +30,5 @@ departure_city_input = WebDriverWait(driver, 30).until(
     EC.element_to_be_clickable((By.XPATH, '//*[@id="qa_auth_LoginEmailInput"]/way-input/div/div[1]/way-input-text/input'))
 )
 
-departure_city_input.send_keys("sk54")
+departure_city_input.send_keys("email")
 departure_city_input.send_keys(u'\ue007')  

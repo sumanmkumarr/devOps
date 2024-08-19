@@ -29,13 +29,13 @@ login_button.click()
 email_field = WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.XPATH, '//*[@id="qa_auth_LoginEmailInput"]/way-input/div/div/way-input-text/input'))  # Replace with actual XPath
 )
-email_field.send_keys('sk5442080@gmail.com')
+email_field.send_keys('email')
 
 # Locate the password field and enter the password
 password_field = WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.XPATH, '//*[@id="qa_auth_LoginPasswordInput"]/way-input/div/div/way-input-password/input'))  # Replace with actual XPath
 )
-password_field.send_keys('Suman@123')
+password_field.send_keys('pass')
 
 # Submit the form
 password_field.send_keys(Keys.RETURN)
