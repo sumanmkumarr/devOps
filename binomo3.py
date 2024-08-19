@@ -48,7 +48,7 @@ up_button = driver.find_element(By.XPATH, '//*[@id="qa_trading_dealUpButton"]/bu
 up_button.click()
 
 # Wait for 100 seconds after placing the order
-time.sleep(100)
+time.sleep(40)
 
 # Close the browser once done
 driver.quit()
