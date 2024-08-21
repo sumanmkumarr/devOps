@@ -47,7 +47,7 @@ WebDriverWait(driver, 10).until(
 up_button = driver.find_element(By.XPATH, '//*[@id="qa_trading_dealUpButton"]/button')  # Replace with actual XPath
 up_button.click()
 
-# Wait for 100 seconds after placing the order
+# Wait for 40 seconds after placing the order
 time.sleep(40)
 
 # Close the browser once done
