@@ -42,7 +42,7 @@ WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.XPATH, '//*[@id="chart"]/canvas'))  # Ensure the trading page is loaded
 )
 
-# Click the "Up" or "Down" button to place an order
+# Click the "Up" or "Down" button to place an order,here we are taking only up trade
 # Replace the XPaths with the correct ones from the actual elements on your page
 up_button = driver.find_element(By.XPATH, '//*[@id="qa_trading_dealUpButton"]/button')  # Replace with actual XPath
 up_button.click()
