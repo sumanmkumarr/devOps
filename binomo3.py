@@ -37,7 +37,7 @@ password_field.send_keys('pass')
 # Submit the form
 password_field.send_keys(Keys.RETURN)
 
-# Wait until the trading page loads
+#  Wait until the trading page loads
 WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.XPATH, '//*[@id="chart"]/canvas'))  # Ensure the trading page is loaded
 )
