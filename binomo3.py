@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-# Set up Chrome options
+# Chrome options
 options = Options()
 options.add_argument("--start-maximized")
 
