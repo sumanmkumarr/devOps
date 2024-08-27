@@ -10,7 +10,7 @@ import time
 options = Options()
 options.add_argument("--start-maximized")
 
-# Initialize the WebDriver
+#  Initialize the WebDriver
 driver = webdriver.Chrome(options=options)
 
 # Navigate to Binomo
